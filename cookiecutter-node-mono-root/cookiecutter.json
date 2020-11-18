@@ -1,0 +1,20 @@
+{
+  "author_name": "",
+  "author_email": "",
+  "project_name": "node-monorepo",
+  "project_slug": "{{ cookiecutter.project_name | lower | replace(' ', '-') }}",
+  "project_description": "node monorepo bootstrapped with https://github.com/link2cory/cookiecutter-node-monorepo",
+  "license": ["MIT"],
+  "install_dependencies": ["yes", "no"],
+  "is_subpackage": ["yes", "no"],
+  "use_git": ["yes", "no"],
+  "use_github": ["yes", "no"],
+  "github_user": "",
+  "github_token": "",
+  "use_gitflow": "yes",
+  "continuous_integration": ["github_actions"],
+  "ci_template": "cookiecutter-github-ci-js",
+  "ci_test_name": "test",
+  "subpackages": {"domain": "cookiecutter-node-mono-component"},
+  "project_root": "/home/cory/.cookiecutters/cookiecutter-node-monorepo-collection"
+}
