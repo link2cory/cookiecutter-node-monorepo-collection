@@ -11,7 +11,7 @@ designed to automate the creation of node monorepos and their components (packag
     - [prettier](https://prettier.io/)
     - [jest](https://jestjs.io/)
     - github remote
-  - create generic [components](#why-components-instead-of-packages?) quickly and easily 
+  - create generic [components](#why-components-instead-of-packages) quickly and easily 
 
 ## Someday features
   - improve usability (it works on my machine...)
