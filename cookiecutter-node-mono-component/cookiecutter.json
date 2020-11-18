@@ -1,0 +1,9 @@
+{
+  "author_name": "",
+  "author_email": "",
+  "component_scope": "@myProjectName",
+  "component_name": "node-monorepo-component",
+  "component_slug": "{{ cookiecutter.component_name | lower | replace(' ', '-') }}",
+  "component_description": "monorepo component bootstrapped with https://github.com/link2cory/cookiecutter-node-monorepo-collection",
+  "project_root": "/home/cory/.cookiecutters/cookiecutter-node-monorepo-collection"
+}
